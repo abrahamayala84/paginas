@@ -3,6 +3,7 @@ import Datetime from 'react-datetime';
 import "react-datetime/css/react-datetime.css";
 import { Link } from 'react-router-dom';
 
+
 function Reservaciones () {
     return(
         <div className="container-fluid" style={{backgroundColor: 'orange', height: '500px', width: '100%'}}>
