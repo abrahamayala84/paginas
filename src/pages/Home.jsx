@@ -9,7 +9,7 @@ function Home () {
     return(
         <>
          <h1 style={{backgroundColor:'orangered', textAlign:'center',}}>RESTAURANTE DRAGON</h1>
-        <nav Container-fluid style={{backgroundColor:'white', color:'gold',display:'flex' }}>
+        <nav  style={{backgroundColor:'white', color:'gold',display:'flex' }}>
         
         <img style={{width:'150px', height:'100px', display:'flex',}} src="https://i.pinimg.com/originals/e6/6e/3f/e66e3f50e65f0bf789b9ccbef1ce5f1e.jpg" alt="" />
           
