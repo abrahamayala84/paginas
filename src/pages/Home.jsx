@@ -11,6 +11,7 @@ function Home () {
           <h1 style={{ textAlign:'center',}}>RESTAURANTE DRAGON</h1>
           <img style={{width:'150px', height:'100px'}} src="https://i.pinimg.com/originals/e6/6e/3f/e66e3f50e65f0bf789b9ccbef1ce5f1e.jpg" alt="" />
         </header>
+        
         <nav  style={{backgroundColor:'orange', color:'gold',display:'flex', width:'100%'}}>
                   
         <h2 style={{color:'red'}}>COMIDA CANTONEZ</h2>
