@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Reservaciones () {
     return(
-        <div className="container-fluid" style={{backgroundColor: 'orange', height: '500px', width: '100%'}}>
+        <div className="container" style={{backgroundColor: 'orange', height: '500px', width: '100%'}}>
         <  >
         
         <h1>Reservaciones</h1>
@@ -15,7 +15,7 @@ function Reservaciones () {
             <input type="text" />
             <br />
             <label>dia</label>
-            <Datetime/>
+            <Datetime style={{width: '50%'}}/>
             
         </form> 
         <br />
