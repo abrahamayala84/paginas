@@ -11,7 +11,7 @@ function Home () {
           <h1 style={{ textAlign:'center',}}>RESTAURANTE DRAGON</h1>
           <img style={{width:'150px', height:'100px'}} src="https://i.pinimg.com/originals/e6/6e/3f/e66e3f50e65f0bf789b9ccbef1ce5f1e.jpg" alt="" />
         </header>
-        
+
         <nav  style={{backgroundColor:'orange', color:'gold',display:'flex', width:'100%'}}>
                   
         <h2 style={{color:'red'}}>COMIDA CANTONEZ</h2>
@@ -119,10 +119,10 @@ function Home () {
 
       <div className="col-md-4 col-sm-6 col-xs-12">
         <ul className="social-icons">
-          <li><a className="facebook" href="#"><i className="fa fa-facebook"></i></a></li>
-          <li><a className="twitter" href="#"><i className="fa fa-twitter"></i></a></li>
-          <li><a className="dribbble" href="#"><i className="fa fa-dribbble"></i></a></li>
-          <li><a className="linkedin" href="#"><i className="fa fa-linkedin"></i></a></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
       </div>
     </div>
