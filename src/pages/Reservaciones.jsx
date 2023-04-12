@@ -15,7 +15,7 @@ function Reservaciones () {
             <input type="text" />
             <br />
             <label>dia</label>
-            <Datetime style={{width: '50%'}}/>
+            <Datetime />
             
         </form> 
         <br />
