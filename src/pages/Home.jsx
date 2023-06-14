@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 function Home () {
     return(
         <>
@@ -12,7 +13,7 @@ function Home () {
           <img style={{width:'150px', height:'100px'}} src="https://i.pinimg.com/originals/e6/6e/3f/e66e3f50e65f0bf789b9ccbef1ce5f1e.jpg" alt="" />
         </header>
 
-        <nav  style={{backgroundColor:'orange', color:'gold',display:'flex', width:'100%'}}>
+        <nav className="nave" style={{backgroundColor:'orange', color:'gold',display:'flex'}}>
                   
         <h2 style={{color:'red'}}>COMIDA CANTONEZ</h2>
           <p style={{textAlign:'center' , color:'red'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eaque labore dicta voluptas, dolorem vero ipsum eveniet nulla! Odio suscipit beatae possimus maiores unde id sed? Perferendis eos nesciunt temporibus!</p>
@@ -87,23 +88,23 @@ function Home () {
       <div className="col-xs-6 col-md-3">
         <h6>Categories</h6>
         <ul className="footer-links">
-          <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-          <li><a href="http://scanfcode.com/category/front-end-development/">UI </a></li>
-          <li><a href="http://scanfcode.com/category/back-end-development/">PH</a></li>
-          <li><a href="http://scanfcode.com/category/java-programming-language/">Ja</a></li>
-          <li><a href="http://scanfcode.com/category/android/">And</a></li>
-          <li><a href="http://scanfcode.com/category/templates/">Temps</a></li>
+          <li><a href="#">C</a></li>
+          <li><a href="#">UI </a></li>
+          <li><a href="#">PH</a></li>
+          <li><a href="#">Ja</a></li>
+          <li><a href="#">And</a></li>
+          <li><a href="#">Temps</a></li>
         </ul>
       </div>
 
       <div className="col-xs-6 col-md-3">
         <h6>Quick Links</h6>
         <ul className="footer-links">
-          <li><a href="http://scanfcode.com/about/">About Us</a></li>
-          <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-          <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-          <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-          <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Contribute</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Sitemap</a></li>
         </ul>
       </div>
     </div>
